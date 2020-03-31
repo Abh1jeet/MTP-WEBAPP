@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.head {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-color: dodgerblue;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-container .boxes {
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  width: 80vw;
+}
+
+.flex-container .boxes .boxvalue {
+  padding: 10px 10px;
+  margin: 8px 0 0 0;
+}
+
+.flex-container .boxes .boxvalue input[type=text], .flex-container .boxes .boxvalue textarea {
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  resize: none;
+}
+
+.flex-container .boxes .boxvalue .label {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.alerts {
+  font-size: 10px;
+  color: red;
+}
+
+div.boxes {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+div.boxes.boxes:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-box-shadow: 2px 7px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 2px 7px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*# sourceMappingURL=main.css.map */

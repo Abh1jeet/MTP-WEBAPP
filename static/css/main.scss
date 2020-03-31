@@ -1,0 +1,75 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .head{
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 5px;
+      font-size: 3rem;
+      text-transform: capitalize;
+      padding-top: 1rem;
+      p{
+        //   background-color: red;
+        //   margin-top: 1rem ;
+      }
+
+  }
+
+  .flex-container {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(30, 144, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      .boxes {
+        // background-color:black;
+        color: white;
+        margin: 20px;
+        padding: 10px;
+        font-size: 25px;
+        width: 80vw;
+        
+        .boxvalue{
+            // background-color: forestgreen;
+            padding: 10px 10px;
+            margin: 8px 0 0 0 ;
+            input[type=text],textarea {
+                width: 100%;
+                font-size: 20px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border-radius: 8px;
+                resize: none;
+              }
+            
+            .label{
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 5px;
+                font-size: 3rem;
+                text-transform: capitalize;
+            } 
+
+            
+            
+            
+        }
+      }
+
+
+  }
+
+  .alerts{
+    font-size: 10px;
+    color: red;
+  }
+  div.boxes{
+    transition:all 0.5s ease-out;
+  &.boxes:hover{
+    transform: scale(1.1, 1.1);   
+    box-shadow: 2px 7px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+ } 
+}
